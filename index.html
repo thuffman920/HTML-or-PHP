@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<body>
+	<script>
+	function passWord() {
+	var testV = 1;
+	var pass1 = prompt('Please Enter Your Password',' ');
+	while (testV < 10) {
+	if (!pass1)
+	history.go(-1);
+	if (pass1.toLowerCase() == "tshuffma") {
+	window.open('index2.html');
+	break;
+	}
+	else {
+	var pass2 = pass1.toLowerCase();
+	}
+	if (pass2.toLowerCase() == "abbrown4") { 
+	window.open('index2.html');
+	break;
+	}
+	else {
+	var pass3 = pass2.toLowerCase();
+	}
+	if (pass3.toLowerCase() == "aamaral") {
+	window.open('index2.html');
+	break;
+	}
+	else {
+	var pass4 = pass3.toLowerCase();
+	}
+	if (pass4.toLowerCase() == "mspowel") {
+	window.open('index2.html');
+	break;
+	}
+	else {
+	var pass5 = pass4.toLowerCase();
+	}
+	if (pass5.toLowerCase() == "amneese") {
+	window.open('index2.html');
+	break;
+	}
+	else {
+	var pass6 = pass5.toLowerCase();
+	}
+	if (pass6.toLowerCase() == "jnsedon") {
+	window.open('index2.html');
+	break;
+	}
+	else {
+	var pass7 = pass6.toLowerCase();
+	}
+	if (pass7.toLowerCase() == "ecardoz") {
+	window.open('index2.html');
+	break;
+	}
+	testV+=1;
+	var pass1 =
+	prompt('Access Denied - Password Incorrect, Please Try Again.');
+	if (testV == 10) {
+	window.open('http://www.google.com');
+	break;
+	}
+	return " ";
+	}
+	}
+	</script>
+	<center>
+	<form>
+	<input type="button" value="Log In:" onClick="passWord()">
+	</form>
+	</center>
+	</body>
+</html>
