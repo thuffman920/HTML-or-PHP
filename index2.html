@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<title>Welcome!</title>
+	<center>
+	<h1>
+	<head>Tyler Huffman</head>
+	</h1>
+	<a href="mailto:tshuffma@ncsu.edu">tshuffma@ncsu.edu</a>
+	<hr />
+	<p><a href="http://www.amazon.com/Introduction-Thermal-Physics-Daniel-Schroeder/dp/0201380277">Thermal Physics 
+	Book</a> By: Danel V. Schroeder</p>
+	<p><a href="http://www.amazon.com/First-Course-Probability-9th/dp/032179477X">Intro to Probability Book</a>
+	By: Sheldon Ross</p>
+	<p><a href="http://www.amazon.com/Classical-Dynamics-Particles-Systems-Thornton/dp/0534408966">Mechanics Book</a>
+	By: Stephen T. Thornton	and Jerry B. Marion</p>
+	<p><a href="http://www.amazon.com/Introduction-Applied-Partial-Differential-Equations/dp/1429275928">Partial 
+	Derivative Book</a> By: John M. Davis</p>
+	<form>
+	<input type="button" value="Google Calendar" onClick="passWord()">
+	</form>
+	</center>
+	<img src="Bears.JPG" alt="Mom and 3 cubs" align="left" width="348" height="256" hspace="200">
+	<img src="Waterfall1.jpg" alt="Triple Falls" width="192" height="256">
+	<script>
+	function passWord() {
+	var testV = 1;
+	var pass1 = prompt('Please Enter Your Password',' ');
+	while (testV < 10) {
+	if (!pass1)
+	history.go(-1);
+	if (pass1.toLowerCase() == "tshuffma") {
+	window.open('http://www.google.com/calendar/render#g');
+	window.open('https://kaba.oit.ncsu.edu/WebTimeClock/');
+	break;
+	}
+	testV+=1;
+	var pass1 =
+	prompt('Access Denied - Password Incorrect, Please Try Again.');
+	if (testV == 10) {
+	window.open('http://www4.ncsu.edu/~tshuffma');
+	break;
+	}
+	return " ";
+	}
+	}
+	</script>
+	<hr />
+	<table style="width:100%">
+		<center>
+		<tr>
+		<td>Document Title: </td>
+		<td>Size:</td>
+		<td>Number:</td>
+		<td>Author:</td>
+		<td>Document Title:</td>
+		<td>Size:</td>
+		<td>Number:</td>
+		<td>Author:</td>
+		</tr>
+		<td><a href="http://www4.ncsu.edu/~tshuffma/Apologetics.html">Apologetics</a></td>
+		<td>120 KB</td>
+		<td>10</td>
+		<td>Tyler Huffman</td>
+		<td><a href="http://www4.ncsu.edu/~tshuffma/Daily_Bible_Verse.html">Daily Bible Verse</a></td>
+		<td></td>
+		<td></td>
+		<td>Tyler Huffman</td>
+		</tr>
+		<tr>
+		<td><a href="http://www4.ncsu.edu/~tshuffma/Bible_Study.html">Bible Study</a></td>
+		<td>275 KB</td>
+		<td>4</td>
+		<td>Tyler Huffman</td>
+		<td><a href="http://www4.ncsu.edu/~tshuffma/Journal_Entry.html">Journal Entry</a></td>
+		<td>11 KB</td>
+		<td>1</td>
+		<td>Tyler Huffman</td>
+		</tr>
+		</table>
+		</center>
+		<p>Links:</p>
+		<p><a href="https://net.bible.org/">Net Bible</a></p>
+		<p><a href="https://www.biblegateway.com/">Bible Gateway</a></p>
+</html>
